@@ -4,7 +4,7 @@
 
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style-prefix-min.css">
+        <link rel="stylesheet" href="css/style.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item first-li active">
+                    <li class="nav-item first-li ">
                     <a class="" href="#home">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -33,29 +33,16 @@
                         <a class="" href="#services">SERVICES</a>
                     </li>
                     <li class="nav-item">
+                        <a class="" href="#records">RECORDS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="" href="#work">WORK</a>
                     </li>
                     <li class="nav-item">
                         <a class="" href="#blog">BLOG</a>
                     </li>
-
-                    <li class="nav-item dropdown ">
-                    <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        DROP DOWN
-                    </a>
-                    <div class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Drop Down 1</a>
-                   
-                         
-                      
-                        <a class="dropdown-item" href="#">Drop Down 2</a>
-                        <a class="dropdown-item" href="#">Drop Down 3</a>
-                        <a class="dropdown-item" href="#">Drop Down 4</a>
-                    </div>
-                    </li>
-
                     <li class="nav-item">
-                        <a class="" href="#contact">Contact</a>
+                        <a class="" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             
@@ -121,19 +108,19 @@
                                 <P class="font-weight-bolder">Skill</P>
                                 <p>HTML 85%</p>
                                 <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar  progress-bar-striped  " role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p>CSS3 75%</p>
                                 <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar  progress-bar-striped " role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p>PHP 50%</p>
                                 <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar  progress-bar-striped " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p>JAVASCRIPT 90%</p>
                                 <div class="progress mb-4">
-                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar  progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                           </div>
@@ -222,7 +209,7 @@
           </section>
           <!-- end of (Services) Section -->
 
-          <section class="py-5"  >
+          <section class="py-5" id="records" >
                 <div class="records shadow-sm py-5 ">
                     <div class="blue-layer"></div>
                     <div class="container  py-5">
@@ -233,7 +220,7 @@
                                 <div class="icon  mx-auto mb-3 rounded-circle d-flex justify-content-center align-items-center">
                                     <i class="fas fa-check fa-2x"></i>
                                 </div>
-                                <h3>450</h3>
+                                <h3 class="counter" data-target="450">0</h3>
                                 <p>WORKS COMPLETED</p>
                             </div>  
                           </div>
@@ -242,7 +229,7 @@
                                 <div class="icon  mx-auto mb-3 rounded-circle d-flex justify-content-center align-items-center">
                                     <i class="fas fa-journal-whills fa-2x"></i>
                                 </div>
-                                <h3>25</h3>
+                                <h3 class="counter" data-target="25">0</h3>
                                 <p>YEARS OF EXPERIENCE</p>
                             </div>  
                           </div>
@@ -251,7 +238,7 @@
                                 <div class="icon  mx-auto mb-3 rounded-circle d-flex justify-content-center align-items-center">
                                     <i class="fas fa-user-friends fa-2x"></i>
                                 </div>
-                                <h3>550</h3>
+                                <h3 class="counter" data-target="550">0</h3>
                                 <p>TOTAL CLIENTS</p>
                             </div>  
                           </div>
@@ -260,7 +247,7 @@
                                 <div class="icon  mx-auto mb-3 rounded-circle d-flex justify-content-center align-items-center">
                                     <i class="fas fa-award fa-2x"></i>
                                 </div>
-                                <h3>48</h3>
+                                <h3 class="counter" data-target="48">0</h3>
                                 <p>AWARD WON</p>
                             </div>  
                           </div>
@@ -400,7 +387,7 @@
         </section>
           <!-- End OF (Portoflio) -->
 
-          <section class="py-5  ">
+          <section class="py-5 " id="testmonial">
             <div class="tetmonial text-white py-5 ">
                 <div class="blue-layer"></div>
                 <div class="container">
@@ -573,10 +560,13 @@
               </div>
           </section>
           <!-- End OF (Contact) -->
-          <footer class="py-4 text-center">
+          <footer class="py-4 text-center position-relative  ">
+            <div class="arrow position-absolute">
+                <a class="text-decoration-none" href="#home"><div class="icon d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-chevron-up fa-lg  text-white"></i></div></a>
+              </div>
                 <p class="mb-0">&copy; Copyright <span class="font-weight-bold">OmarFayez</span> . All Rights Reserved	 </p>              
           </footer>
-
+          <script src="js/main.js"></script>
           <script src="js/jquery-3.5.1.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
