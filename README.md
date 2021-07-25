@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
   - [About](#About)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
@@ -13,10 +12,6 @@
 ### About
 
 -It is a potofolio site for web developer and designer which consist of set of sections (Home - About - Services - Records - Works - Testimonial - Blog - Contact).
-
-### Screenshot
-
-![portfolio](https://im2.ezgif.com/tmp/ezgif-2-cc30c5730621.webp)
 
 ### Links
 
